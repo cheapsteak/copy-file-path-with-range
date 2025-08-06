@@ -14,8 +14,40 @@
   "contributes": {
     "commands": [
       {
-        "command": "copy-file-path-with-range.helloWorld",
-        "title": "Hello World"
+        "command": "copy-file-path-with-range.copyRelativePath",
+        "title": "Copy Relative Path with Range"
+      },
+      {
+        "command": "copy-file-path-with-range.copyAbsolutePath",
+        "title": "Copy Absolute Path with Range"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "copy-file-path-with-range.copyRelativePath",
+          "group": "9_cutcopypaste",
+          "when": "editorTextFocus"
+        },
+        {
+          "command": "copy-file-path-with-range.copyAbsolutePath",
+          "group": "9_cutcopypaste",
+          "when": "editorTextFocus"
+        }
+      ]
+    },
+    "keybindings": [
+      {
+        "command": "copy-file-path-with-range.copyRelativePath",
+        "key": "alt+l",
+        "mac": "alt+l",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "copy-file-path-with-range.copyAbsolutePath",
+        "key": "alt+shift+l",
+        "mac": "alt+shift+l",
+        "when": "editorTextFocus"
       }
     ]
   },
