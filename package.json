@@ -3,7 +3,7 @@
   "displayName": "Copy File Path with Range",
   "description": "Copy file path with range to provide as context to coding assistants",
   "publisher": "ChangWang",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icon": "images/icon.png",
   "repository": {
     "type": "git",
