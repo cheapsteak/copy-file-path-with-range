@@ -2,7 +2,7 @@
   "name": "copy-file-path-with-range",
   "displayName": "copy-file-path-with-range",
   "description": "Copy file path with range to provide as context to coding assistants",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.102.0"
   },
