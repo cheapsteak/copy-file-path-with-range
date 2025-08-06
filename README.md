@@ -18,8 +18,8 @@ VSCode extension to copy file paths with selection ranges for easy sharing with 
 
 1. Select code in the editor
 2. Right-click and choose:
-   - **Copy Relative Path with Range** (Alt+L)
-   - **Copy Absolute Path with Range**
+   - **Copy Relative Path with Range** - `Alt+L` (Windows/Linux) or `Option+L` (Mac)
+   - **Copy Absolute Path with Range** - `Alt+Shift+L` (Windows/Linux) or `Option+Shift+L` (Mac)
 
 ## Installation
 
