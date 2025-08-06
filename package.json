@@ -3,7 +3,7 @@
   "displayName": "Copy File Path with Range",
   "description": "Copy file path with range to provide as context to coding assistants",
   "publisher": "ChangWang",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "icon": "images/icon.png",
   "repository": {
     "type": "git",
@@ -11,7 +11,7 @@
   },
   "license": "MIT",
   "engines": {
-    "vscode": "^1.102.0"
+    "vscode": "^1.74.0"
   },
   "categories": [
     "Other"
@@ -73,7 +73,7 @@
   "devDependencies": {
     "@types/mocha": "^10.0.10",
     "@types/node": "20.x",
-    "@types/vscode": "^1.102.0",
+    "@types/vscode": "^1.74.0",
     "@typescript-eslint/eslint-plugin": "^8.31.1",
     "@typescript-eslint/parser": "^8.31.1",
     "@vscode/test-cli": "^0.0.11",
